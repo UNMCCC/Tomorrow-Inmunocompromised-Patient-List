@@ -1,0 +1,37 @@
+TRUNCATE alert_inmunocompromised_tomorrow;
+LOAD DATA local infile 'D:\\Tableau\\Sources\\ClinicalOps\\AlertInmunocompromised\\inmunostomorrow.csv' INTO table alert_inmunocompromised_tomorrow
+CHARACTER SET latin1
+FIELDS TERMINATED BY ','  
+OPTIONALLY ENCLOSED BY '"' 
+IGNORE 2 LINES 
+(pat_name,MRN,@ad,activity,Location,attending_MD,Comments)
+SET App_Date = str_to_date(@ad,'%Y-%m-%d %H:%i:%s'); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
