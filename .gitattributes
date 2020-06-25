@@ -3,6 +3,8 @@
 
 # Custom for Visual Studio
 *.cs     diff=csharp
+*.sql    diff=astextplain
+*.mysql  diff=astextplain
 
 # Standard to msysgit
 *.doc	 diff=astextplain
@@ -15,5 +17,3 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
-*.sql text
-*.mysql text
